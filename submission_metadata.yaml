@@ -1,0 +1,89 @@
+# Redrob Hackathon — Submission Metadata Template
+#
+# Copy this file to your repo root as `submission_metadata.yaml` and fill it in.
+# The fields here should match what you submit via the portal at upload time.
+# Stage 3 review uses this file to verify your portal metadata.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "shanmukha"  # Used in leaderboard and announcements
+
+primary_contact:
+  name: "Shanmukha chowdary vemuri"
+  email: "shanmukhavemuri@gmail.com"   # Used for all organizer communication
+  phone: "+91-9550782260"        # Used for top-50 / top-10 outreach
+
+team_members:
+  - name: "Shanmukha chowdary vemuri"
+    email: "shanmukhavemuri@gmail.com"
+    role: "ML Engineer"          # Optional, e.g. "Team Lead", "Backend", "Data"
+  # Add more members as needed; solo participants list just one member
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/YOUR_USERNAME/YOUR_REPO"
+# Required. Must be reachable. Private repos OK if you can grant organizer
+# access at Stage 3 (the email to add will be communicated then).
+
+sandbox_link: "https://colab.research.google.com/drive/1cgSmC3ObfLJ5ij4-eb0jQYqZT5BfBc_U?usp=sharing"
+# Required. A working hosted environment where the ranker can be run on a small
+# candidate sample. See Section 10.5 of submission_spec.md for acceptable
+# platforms (HuggingFace Spaces, Streamlit Cloud, Replit, Colab, Docker, Binder).
+
+reproduce_command: "python rank_pipeline.py"
+# The single command that produces submission.csv from candidates.jsonl.
+# Should run end-to-end within 5 minutes on CPU with 16GB RAM and no network.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "local cpu"                    # Or: "AWS EC2 c5.4xlarge", "Local Linux box", etc.
+  cpu_cores: 4                               # Number of CPU cores used
+  ram_gb: 16                                    # Available RAM in GB
+  python_version: "3.10"                      # python --version
+  os: "Windows"                              # Or "Ubuntu 22.04 LTS", etc.
+  uses_gpu_for_inference: false                 # Must be false — see compute constraints
+  has_network_during_ranking: false             # Must be false — no API calls during ranking
+  pre_computation_required: false               # true if you pre-compute embeddings or train models offline
+  pre_computation_time_minutes: 0               # Approximate, if applicable
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+# Transparency only — declared use is NOT penalized. Be honest. Stage 5 interview
+# may verify these declarations against your code; declarations that contradict
+# your code or your interview are flagged.
+ai_tools_used:
+  - "Gemini"        
+  - "ChatGPT"  
+  # Other options: "ChatGPT", "Cursor", "Gemini", "Codeium", "Other", "None"
+
+ai_usage_summary: |
+  Used Gemini purely as a coding assistant to help debug Python syntax 
+  correct local file pathing errors 
+  and write pandas dataframe logic to perfectly resolve exact-score tie-breakers. 
+  All data filtering, candidate logic, and model executions were handled locally. 
+  No candidate data was passed to external LLM APIs.
+
+# ============================================================================
+# Approach summary (optional but recommended)
+# ============================================================================
+methodology_summary: |
+  The pipeline executes a highly optimized, multi-stage funnel. 
+  1. Extraction: The compressed dataset is extracted and loaded directly into a Google Colab working environment. 
+  2. Data Cleaning & Filtering: A strict 8-step rule-based filter is applied to instantly eliminate unqualified candidates. Key filters require a minimum of 5 years of total professional experience, at least 4 years of dedicated AI/ML experience, and the removal of chronic job-hoppers (e.g., switching roles every 18 months). 
+  3. Semantic Modeling: The surviving, high-quality candidate pool is passed through a lightweight, locally run SentenceTransformer model to generate text embeddings. 
+  4. Logic & Ranking: Candidate embeddings are scored for semantic similarity against an ideal target profile. Final scores are augmented using specific ranking multipliers, and exact-score ties are forcefully broken using strict alphabetical ID sorting to output the final top 100.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true        # I have read submission_spec.md in full
+  code_is_original_work: true       # My code is my team's original work (using AI as a tool is fine)
+  no_collusion: true                # I have not coordinated my submission with other teams
+  honeypot_check_done: true         # OPTIONAL — set true if you explicitly checked for honeypots in your ranking
+  reproduction_tested: true         # I have tested that my reproduce_command runs end-to-end
