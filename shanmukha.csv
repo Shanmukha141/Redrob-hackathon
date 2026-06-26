@@ -1,101 +1,101 @@
 candidate_id,rank,score,reasoning
-CAND_0039754,1,0.9904,Senior Applied Scientist (16.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice | Highly Responsive
-CAND_0052328,2,0.9337,Recommendation Systems Engineer (6.5 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0010770,3,0.9169,Recommendation Systems Engineer (15.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0027691,4,0.9037,NLP Engineer (6.5 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0055992,5,0.9016,AI Engineer (16.9 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0018499,6,0.9007,Senior Machine Learning Engineer (7.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0077337,7,0.8991,Staff Machine Learning Engineer (7.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
-CAND_0068811,8,0.8911,Applied ML Engineer (8.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0081846,9,0.8762,Lead AI Engineer (6.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0094759,10,0.8581,Lead AI Engineer (8.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0060054,11,0.8558,AI Engineer (6.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice | Highly Responsive
-CAND_0041610,12,0.8539,Recommendation Systems Engineer (6.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0069905,13,0.8531,Applied ML Engineer (6.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0041669,14,0.8481,Recommendation Systems Engineer (8.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0039383,15,0.8435,Applied ML Engineer (7.1 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0018722,16,0.8331,Recommendation Systems Engineer (6.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0005649,17,0.8285,Senior Data Scientist (7.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0083879,18,0.8222,Machine Learning Engineer (7.1 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0058688,19,0.8141,AI Engineer (6.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0017960,20,0.814,Recommendation Systems Engineer (7.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0011162,21,0.8129,Recommendation Systems Engineer (5.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0007009,22,0.8117,Recommendation Systems Engineer (7.9 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0098846,23,0.8079,AI Engineer (7.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0044855,24,0.7974,Senior Data Scientist (6.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0091534,25,0.7963,AI Engineer (16.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice | Highly Responsive
-CAND_0044883,26,0.7949,AI Engineer (6.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
-CAND_0062247,27,0.7945,AI Engineer (7.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0076251,28,0.7906,Search Engineer (7.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0050454,29,0.7827,AI Engineer (6.8 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0066999,30,0.7773,Recommendation Systems Engineer (5.9 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0018549,31,0.7733,Recommendation Systems Engineer (6.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0075574,32,0.7733,Machine Learning Engineer (5.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0042029,33,0.7689,Senior Data Scientist (6.5 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0006418,34,0.7546,Machine Learning Engineer (5.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
-CAND_0037566,35,0.7506,Machine Learning Engineer (6.9 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0091909,36,0.7495,Machine Learning Engineer (6.9 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0093331,37,0.7444,NLP Engineer (16.1 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0015967,38,0.7405,Senior Software Engineer (ML) (5.4 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0024620,39,0.7385,AI Engineer (5.9 yrs) | Search/Matching Systems
-CAND_0047721,40,0.733,Senior Data Scientist (7.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0007052,41,0.7294,ML Engineer (6.5 yrs) | Search/Matching Systems | Highly Responsive
-CAND_0031593,42,0.7287,Search Engineer (7.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0099401,43,0.7263,NLP Engineer (7.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0081053,44,0.7246,NLP Engineer (5.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
-CAND_0046525,45,0.7204,Senior Machine Learning Engineer (6.1 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
-CAND_0057563,46,0.7171,NLP Engineer (6.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
-CAND_0006567,47,0.7167,Senior AI Engineer (7.9 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0049896,48,0.7116,Search Engineer (7.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0008295,49,0.7072,AI Research Engineer (6.5 yrs) | Search/Matching Systems | Highly Responsive
-CAND_0007411,50,0.7024,Senior Machine Learning Engineer (8.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0081852,51,0.7001,Senior Data Scientist (5.9 yrs) | Search/Matching Systems
-CAND_0052335,52,0.698,Applied ML Engineer (6.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0005260,53,0.6919,Senior NLP Engineer (5.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
-CAND_0090155,54,0.6914,ML Engineer (5.8 yrs) | Search/Matching Systems
-CAND_0082489,55,0.6893,ML Engineer (5.3 yrs) | Search/Matching Systems
-CAND_0042100,56,0.6888,Machine Learning Engineer (7.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
-CAND_0078492,57,0.6866,Recommendation Systems Engineer (5.1 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0001707,58,0.6831,Data Scientist (5.6 yrs) | Search/Matching Systems
-CAND_0018888,59,0.6802,AI Research Engineer (6.5 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0088335,60,0.677,AI Research Engineer (6.4 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0040178,61,0.6758,ML Engineer (5.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0087630,62,0.6695,AI Engineer (7.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
-CAND_0034053,63,0.6691,Business Analyst (11.1 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0060072,64,0.6677,Staff Machine Learning Engineer (5.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0003841,65,0.6665,ML Engineer (5.0 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0058575,66,0.6608,AI Engineer (5.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0091580,67,0.6548,Data Scientist (5.5 yrs) | Search/Matching Systems
-CAND_0086022,68,0.65,Senior Applied Scientist (5.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0033179,69,0.6497,AI Research Engineer (6.9 yrs) | Search/Matching Systems | 30-Day Notice | Highly Responsive
-CAND_0072678,70,0.6451,Project Manager (9.6 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0062630,71,0.6448,Business Analyst (13.3 yrs) | Search/Matching Systems
-CAND_0047542,72,0.6447,Senior Software Engineer (ML) (5.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0020145,73,0.6379,Content Writer (13.5 yrs) | Search/Matching Systems
-CAND_0063431,74,0.6365,Business Analyst (12.3 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0071115,75,0.6357,Recommendation Systems Engineer (16.5 yrs) | Search/Matching Systems
-CAND_0032179,76,0.6352,Computer Vision Engineer (6.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0048558,77,0.6334,Data Scientist (6.7 yrs) | Search/Matching Systems | 30-Day Notice | Highly Responsive
-CAND_0012837,78,0.6327,Junior ML Engineer (6.4 yrs) | Search/Matching Systems | Highly Responsive
-CAND_0046894,79,0.6296,Content Writer (14.1 yrs) | Search/Matching Systems
-CAND_0052195,80,0.6294,Computer Vision Engineer (6.3 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0026640,81,0.6289,Computer Vision Engineer (6.1 yrs) | Search/Matching Systems
-CAND_0033839,82,0.6286,AI Specialist (5.3 yrs) | Search/Matching Systems
-CAND_0025882,83,0.6256,Senior Software Engineer (ML) (5.6 yrs) | Search/Matching Systems
-CAND_0040820,84,0.6246,Senior Software Engineer (ML) (5.5 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
-CAND_0013163,85,0.6237,Business Analyst (15.0 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0044890,86,0.6237,AI Research Engineer (5.0 yrs) | Search/Matching Systems
-CAND_0005851,87,0.6233,Content Writer (12.8 yrs) | Search/Matching Systems
-CAND_0069638,88,0.6217,Computer Vision Engineer (6.2 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0064222,89,0.6206,Business Analyst (14.3 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0015643,90,0.6201,AI Research Engineer (5.8 yrs) | Search/Matching Systems
-CAND_0059577,91,0.6184,Mechanical Engineer (9.8 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0039653,92,0.6173,Project Manager (12.0 yrs) | Search/Matching Systems
-CAND_0028527,93,0.6156,AI Specialist (5.4 yrs) | Search/Matching Systems | Highly Responsive
-CAND_0019159,94,0.6138,ML Engineer (6.1 yrs) | Search/Matching Systems
-CAND_0043860,95,0.6136,Junior ML Engineer (6.1 yrs) | Search/Matching Systems | 30-Day Notice | Highly Responsive
-CAND_0055682,96,0.6125,Business Analyst (14.0 yrs) | Search/Matching Systems
-CAND_0081576,97,0.6103,Business Analyst (13.6 yrs) | Search/Matching Systems
-CAND_0067475,98,0.6091,Mechanical Engineer (14.2 yrs) | Search/Matching Systems | 30-Day Notice
-CAND_0067717,99,0.6066,AI Specialist (6.9 yrs) | Search/Matching Systems
-CAND_0074123,100,0.6066,Data Scientist (6.9 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0039754,1,1.0254,Senior Applied Scientist (16.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice | Highly Responsive
+CAND_0052328,2,0.9899,Recommendation Systems Engineer (6.5 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0010770,3,0.9752,Recommendation Systems Engineer (15.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0018499,4,0.9615,Senior Machine Learning Engineer (7.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0027691,5,0.9523,NLP Engineer (6.5 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0055992,6,0.9464,AI Engineer (16.9 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0077337,7,0.9457,Staff Machine Learning Engineer (7.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
+CAND_0081846,8,0.9228,Lead AI Engineer (6.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0068811,9,0.9145,Applied ML Engineer (8.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0041610,10,0.9056,Recommendation Systems Engineer (6.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0094759,11,0.9046,Lead AI Engineer (8.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0060054,12,0.9024,AI Engineer (6.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice | Highly Responsive
+CAND_0069905,13,0.8997,Applied ML Engineer (6.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0041669,14,0.8949,Recommendation Systems Engineer (8.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0018722,15,0.8891,Recommendation Systems Engineer (6.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0039383,16,0.8884,Applied ML Engineer (7.1 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0005649,17,0.8867,Senior Data Scientist (7.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0083879,18,0.8807,Machine Learning Engineer (7.1 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0017960,19,0.8722,Recommendation Systems Engineer (7.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0007009,20,0.8657,Recommendation Systems Engineer (7.9 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0098846,21,0.8618,AI Engineer (7.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0011162,22,0.8578,Recommendation Systems Engineer (5.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0044855,23,0.8556,Senior Data Scientist (6.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0091534,24,0.8523,AI Engineer (16.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice | Highly Responsive
+CAND_0044883,25,0.851,AI Engineer (6.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
+CAND_0062247,26,0.8484,AI Engineer (7.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0058688,27,0.8477,AI Engineer (6.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0076251,28,0.8337,Search Engineer (7.6 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0018549,29,0.8272,Recommendation Systems Engineer (6.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0075574,30,0.8272,Machine Learning Engineer (5.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0066999,31,0.8269,Recommendation Systems Engineer (5.9 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0050454,32,0.8241,AI Engineer (6.8 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0042029,33,0.8154,Senior Data Scientist (6.5 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0006418,34,0.8012,Machine Learning Engineer (5.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
+CAND_0037566,35,0.8002,Machine Learning Engineer (6.9 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0091909,36,0.7944,Machine Learning Engineer (6.9 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0093331,37,0.794,NLP Engineer (16.1 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0024620,38,0.7902,AI Engineer (5.9 yrs) | Search/Matching Systems
+CAND_0031593,39,0.7826,Search Engineer (7.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0046525,40,0.7789,Senior Machine Learning Engineer (6.1 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
+CAND_0047721,41,0.7779,Senior Data Scientist (7.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0057563,42,0.7732,NLP Engineer (6.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
+CAND_0006567,43,0.773,Senior AI Engineer (7.9 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0007052,44,0.7708,ML Engineer (6.5 yrs) | Search/Matching Systems | Highly Responsive
+CAND_0081053,45,0.7695,NLP Engineer (5.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
+CAND_0049896,46,0.7676,Search Engineer (7.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0015967,47,0.7603,Senior Software Engineer (ML) (5.4 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0099401,48,0.76,NLP Engineer (7.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0005260,49,0.7502,Senior NLP Engineer (5.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
+CAND_0008295,50,0.7468,AI Research Engineer (6.5 yrs) | Search/Matching Systems | Highly Responsive
+CAND_0052335,51,0.7429,Applied ML Engineer (6.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0081852,52,0.7415,Senior Data Scientist (5.9 yrs) | Search/Matching Systems
+CAND_0090155,53,0.7409,ML Engineer (5.8 yrs) | Search/Matching Systems
+CAND_0078492,54,0.7362,Recommendation Systems Engineer (5.1 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0007411,55,0.736,Senior Machine Learning Engineer (8.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0042100,56,0.7337,Machine Learning Engineer (7.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | Highly Responsive
+CAND_0001707,57,0.7326,Data Scientist (5.6 yrs) | Search/Matching Systems
+CAND_0082489,58,0.7307,ML Engineer (5.3 yrs) | Search/Matching Systems
+CAND_0040178,59,0.7298,ML Engineer (5.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0018888,60,0.7274,AI Research Engineer (6.5 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0088335,61,0.7184,AI Research Engineer (6.4 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0087630,62,0.7126,AI Engineer (7.2 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems | 30-Day Notice
+CAND_0086022,63,0.7082,Senior Applied Scientist (5.3 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0003841,64,0.7079,ML Engineer (5.0 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0058575,65,0.704,AI Engineer (5.8 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0060072,66,0.7001,Staff Machine Learning Engineer (5.7 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0034053,67,0.6988,Business Analyst (11.1 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0091580,68,0.6944,Data Scientist (5.5 yrs) | Search/Matching Systems
+CAND_0033179,69,0.6876,AI Research Engineer (6.9 yrs) | Search/Matching Systems | 30-Day Notice | Highly Responsive
+CAND_0032179,70,0.6869,Computer Vision Engineer (6.4 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0047542,71,0.6843,Senior Software Engineer (ML) (5.0 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0071115,72,0.6832,Recommendation Systems Engineer (16.5 yrs) | Search/Matching Systems
+CAND_0048558,73,0.6829,Data Scientist (6.7 yrs) | Search/Matching Systems | 30-Day Notice | Highly Responsive
+CAND_0026640,74,0.6807,Computer Vision Engineer (6.1 yrs) | Search/Matching Systems
+CAND_0052195,75,0.6768,Computer Vision Engineer (6.3 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0063431,76,0.6761,Business Analyst (12.3 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0033839,77,0.676,AI Specialist (5.3 yrs) | Search/Matching Systems
+CAND_0062630,78,0.6758,Business Analyst (13.3 yrs) | Search/Matching Systems
+CAND_0012837,79,0.6741,Junior ML Engineer (6.4 yrs) | Search/Matching Systems | Highly Responsive
+CAND_0020145,80,0.669,Content Writer (13.5 yrs) | Search/Matching Systems
+CAND_0040820,81,0.6677,Senior Software Engineer (ML) (5.5 yrs) | Ranking Eval (NDCG/MRR) | Search/Matching Systems
+CAND_0072678,82,0.6658,Project Manager (9.6 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0025882,83,0.6653,Senior Software Engineer (ML) (5.6 yrs) | Search/Matching Systems
+CAND_0028527,84,0.6652,AI Specialist (5.4 yrs) | Search/Matching Systems | Highly Responsive
+CAND_0044890,85,0.6634,AI Research Engineer (5.0 yrs) | Search/Matching Systems
+CAND_0015643,86,0.6597,AI Research Engineer (5.8 yrs) | Search/Matching Systems
+CAND_0046894,87,0.6593,Content Writer (14.1 yrs) | Search/Matching Systems
+CAND_0067717,88,0.6561,AI Specialist (6.9 yrs) | Search/Matching Systems
+CAND_0043860,89,0.655,Junior ML Engineer (6.1 yrs) | Search/Matching Systems | 30-Day Notice | Highly Responsive
+CAND_0019159,90,0.6535,ML Engineer (6.1 yrs) | Search/Matching Systems
+CAND_0081576,91,0.6535,Business Analyst (13.6 yrs) | Search/Matching Systems
+CAND_0059795,92,0.6523,Senior Software Engineer (ML) (5.6 yrs) | Search/Matching Systems
+CAND_0069638,93,0.6514,Computer Vision Engineer (6.2 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0072688,94,0.6512,Data Scientist (6.9 yrs) | Search/Matching Systems | Highly Responsive
+CAND_0059577,95,0.6494,Mechanical Engineer (9.8 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0039653,96,0.6484,Project Manager (12.0 yrs) | Search/Matching Systems
+CAND_0020494,97,0.6465,AI Research Engineer (5.9 yrs) | Search/Matching Systems
+CAND_0013163,98,0.6427,Business Analyst (15.0 yrs) | Search/Matching Systems | 30-Day Notice
+CAND_0055682,99,0.6423,Business Analyst (14.0 yrs) | Search/Matching Systems
+CAND_0054703,100,0.6415,Computer Vision Engineer (6.8 yrs) | Search/Matching Systems

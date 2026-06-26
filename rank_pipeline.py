@@ -2,7 +2,7 @@ import zipfile
 import os
 import json
 import pprint
-from datetime import datetime
+from datetime import datetime,timezone
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -30,6 +30,45 @@ print("Total candidates:", len(candidates))
 #============================================================
 # Initialize pretty printer for clean output
 pp = pprint.PrettyPrinter(indent=2, width=80)
+
+# ── define is_honeypot ──────────────────────────
+def is_honeypot(candidate):
+    profile = candidate.get('profile', {})
+    signals = candidate.get('redrob_signals', {})
+    skills = candidate.get('skills', [])
+
+    last_active = signals.get('last_active_date')
+    if last_active:
+        try:
+            last_dt = datetime.fromisoformat(last_active.replace("Z", "+00:00"))
+            days_inactive = (datetime.now(timezone.utc) - last_dt).days
+            if days_inactive > 365:
+                return True
+        except Exception:
+            pass
+
+    notice = signals.get('notice_period_days', 90)
+    open_to_work = signals.get('open_to_work_flag', False)
+    if notice == 0 and open_to_work is False:
+        return True
+
+    for skill in skills:
+        skill_name = (skill.get('name') or '').lower()
+        skill_months = skill.get('duration_months') or 0
+        if 'pytorch' in skill_name and skill_months > 108:
+            return True
+        if 'tensorflow' in skill_name and skill_months > 120:
+            return True
+
+    completeness = signals.get('profile_completeness_score') or 0
+    views = signals.get('profile_views_received_30d') or 0
+    applications = signals.get('applications_submitted_30d') or 0
+    if completeness == 100 and views == 0 and applications == 0:
+        return True
+
+    return False
+
+
 
 def clean_candidates_data(candidates_list):
     viable_candidates = []
@@ -177,6 +216,9 @@ def clean_candidates_data(candidates_list):
         # 48 months equals 4 years of compiled project experience
         if total_ai_months < 48:
             is_viable = False
+        # 10. Honeypot Detection
+        if is_viable and is_honeypot(candidate):
+            is_viable = False
 
         # ==========================================================
 
@@ -262,6 +304,20 @@ def company_score(candidate):
 def behavior_score(signals):
     score = 0.0
 
+
+    # NEW UPDATE
+    last_active = signals.get("last_active_date")
+    if last_active:
+        try:
+            last_dt = datetime.fromisoformat(last_active.replace("Z", "+00:00"))
+            days_inactive = (datetime.now(timezone.utc) - last_dt).days
+            if days_inactive > 180:
+                score -= 0.30  # Strong penalty — effectively unavailable
+            elif days_inactive > 90:
+                score -= 0.15
+        except Exception:
+            pass
+
     # 1. Open to Work
     if signals.get("open_to_work_flag") is True:
         score += 0.20
@@ -293,14 +349,14 @@ def behavior_score(signals):
         score += 0.05
 
     # 6. Search Appearances (High market visibility)
-    searches = signals.get("search_appearances") or 0
+    searches = signals.get("search_appearance_30d") or 0
     if searches >= 500:
         score += 0.10
     elif searches >= 100:
         score += 0.05
 
     # 7. Saved by Recruiters (High demand indicator)
-    saves = signals.get("saved_by_recruiters") or 0
+    saves = signals.get("saved_by_recruiters_30d") or 0
     if saves >= 5:
         score += 0.15
     elif saves > 0:
